@@ -1,0 +1,145 @@
+
+/*Header*/
+.header{
+    width: 100%;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Nunito";
+    
+}
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #aa8a6d;
+    border-radius: 1em;
+}
+
+nav p{
+    margin-right: 5em;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none; 
+}
+
+a:visited{
+    color: black;
+}
+
+
+/*Body*/
+body{
+    background: rgb(224,199,173);
+    background: linear-gradient(90deg, rgba(224,199,173,1) 26%, rgba(188,160,134,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container{
+    width: 90%;
+    height: 50em;
+    margin-top: 8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.flex-container div{
+    background-color: #aa8a6d;
+    width: 25em;
+    height: 15em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px #997d65;
+    display: grid;
+    grid-template-columns: 11.5em 14em;
+    grid-template-rows: 9em 6em;
+    
+}
+
+
+div img{
+    width: 11.5em;
+    height: 9em;
+    border-radius: 1em;
+}
+
+.description{
+    margin-left: 1em;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.description-valeurs{
+    margin-left: 4em;
+    grid-column: 2;
+    grid-row: 1;
+}
+.prix{
+    margin: auto;
+    font-size: 20px;
+
+}
+
+button{
+    width: 8em;
+    height: 3em;
+    border-radius: 5px;
+    margin: auto;
+    background: rgb(179,175,175);
+    background: linear-gradient(90deg, rgba(179,175,175,1) 0%, rgba(138,188,205,0.85) 100%);
+}
+
+table{
+    width: 10em;
+    height: 5em;
+}
+
+/*footer*/
+footer{
+    
+    width: 100%;
+    height: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+
+footer div{
+    width: 90%;
+    border-top: 1px solid #596b83;
+    
+}
+
+footer p{
+    margin-left: 4em;
+    font-size: 20px;
+    border-bottom: 1px solid #596b83;
+}
+
+.formulaire{
+    margin-left: 5em;
+}
+
+input, #txtarea {
+    border-radius: 10px;
+
+}
