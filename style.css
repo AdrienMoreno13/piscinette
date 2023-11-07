@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.rat {
+  position: relative;
+}
+
+.rat_body {
+  position: relative;
+  background-color: #afafaf;
+  height: 200px;
+  width: 210px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 20px;
+}
+
+.rat_ear,
+.rat_nose {
+  position: absolute;
+  background-color: #f4a4a3;
+  height: 88px;
+  width: 80px;
+  right: -40px;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.rat_eye {
+  position: absolute;
+  background-color: #7c7c7c;
+  height: 35px;
+  width: 20px;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 20px;
+}
+
+.rat_nose {
+  width: 30px;
+  height: 30px;
+  right: -18px;
+  top: auto;
+  bottom: -5px;
+}
+
+.rat_tail {
+  position: absolute;
+  height: 200px;
+  width: 150px;
+  border-radius: 50%;
+  border-left: solid 10px #f4a4a3;
+  top: -20px;
+  left: -10px;
+}
